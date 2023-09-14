@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF000000">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="10dp"
+		android:gravity="center"
+		android:background="#FF000000">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:layout_width="wrap_content"
+				android:inputType="textMultiLine"
+				android:layout_height="50dp"
+				android:ems="10"
+				android:layout_weight="1.0"
+				android:id="@+id/pattern"
+				android:lines="1"
+				android:background="#FF444444"
+				android:textColor="#FF00FF00"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:text="save"
+				android:id="@+id/save_pattern"
+				android:background="#FF410A0A"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="5dp">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:text="parse"
+				android:background="#FF410A0A"
+				android:id="@+id/parse"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center"
+			android:padding="10dp">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="cc =&gt;"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="#FF444444"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginLeft="10dp"
+					android:textColor="#FF999999"
+					android:id="@+id/label_cc"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="exp =&gt;"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="#FF444444"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginLeft="10dp"
+					android:textColor="#FF999999"
+					android:id="@+id/label_exp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="cvv =&gt;"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="#FF444444"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginLeft="10dp"
+					android:textColor="#FF999999"
+					android:id="@+id/label_cvv"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
